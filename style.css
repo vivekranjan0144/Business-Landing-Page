@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ------------------------------------------------------------------------ */
+/* -------------------------------NavBAr----------------------------------- */
+/* ------------------------------------------------------------------------ */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #636C79;
+    padding: 2em;
+}
+
+.nav-list-items {
+    display: flex;
+    justify-content: space-between;
+    width: 42vw;
+    list-style-type: none;
+    margin-right: -16vw;
+}
+
+.nav-list-item a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.nav-list-item a:hover {
+    font-weight: 400;
+}
+
+.nav-btn {
+    background-color: transparent;
+    border: 1px solid #7D8188;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0.6em 3em;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------ */
+/* -------------------------Enpowering-Section----------------------------- */
+/* ------------------------------------------------------------------------ */
+
+.enpowering-section {
+    background-color: #636C79;
+    box-sizing: border-box;
+    padding: 4em 0em 8em 0em;
+    display: flex;
+    justify-content: center;
+    gap: 9em;
+}
+
+.enpowering-left {
+    width: 29em;
+    height: 35em;
+    border-radius: 0.4em;
+    background-image: url(./images/pexels-fauxels-3183197.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.enpowering-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    width: 40vw;
+}
+
+.enpowering-right h1 {
+    color: #ffffff;
+    font-size: 4vw;
+}
+
+.enpowering-right p {
+    color: #D1D3D7;
+    font-size: 1.3vw;
+    line-height: 1.8;
+    width: 36vw;
+}
+
+.email-box {
+    padding: 0.5em;
+    background-color: #ffffff;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input[type="email"] {
+    border: none;
+    width: 19.7vw;
+    font-size: 1.1vw;
+    margin-left: 0.4em;
+}
+
+.fa.fa-envelope {
+    font-size: 1.3vw;
+}
+
+.email-btn {
+    background-color: #8BB7A2;
+    border: none;
+    color: #ffffff;
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding: 0.6em 2em ;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------ */
+/* -------------------------Connection-Section----------------------------- */
+/* ------------------------------------------------------------------------ */
+
+.business-connection-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8em 8em 12em 8em;
+}
+
+.connection-heading h1 {
+    font-size: 3vw;
+    width: 14em;
+    text-align: center;
+    line-height: 1.4;
+    color: #1B1D21;
+}
+
+.connection-counts {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 4em;
+}
+
+.counts span {
+    font-weight: 700;
+    font-size: 2.8vw;
+}
+
+.counts p {
+    font-weight: 600;
+    font-size: 1.2vw;
+    color: #575757;
+    margin: 0.6em 0em 3em -2em;
+}
+
+.connection-img {
+    width: 82vw;
+    height: 45em;
+    background-image: url(./images/pexels-fauxels-3184325.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------Easy-Heading------------------------------ */
+/* ------------------------------------------------------------------------ */
+
+.easy-heading h1 {
+    text-align: center;
+    font-size: 4vw;
+    color: #1B1D21;
+    width: 42vw;
+    margin: 0 auto;
+}
+
+/* ------------------------------------------------------------------------ */
+/* -----------------------------Design-Section----------------------------- */
+/* ----------------------------Marketing-Section--------------------------- */
+/* ------------------------------Judge-Section----------------------------- */
+/* ------------------------------Team-Heading------------------------------ */
+/* ------------------------------------------------------------------------ */
+
+.design-section , .marketing-section , .judge-section , .team-heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    margin: 6em 8em;
+}
+
+.design-left , .marketing-right , .judge-left {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.2em;
+}
+
+.design-left h1 , .marketing-right h1 , .judge-left h1 , .team-heading h1 {
+    font-size: 2.5vw;
+    color: #1B1D21;
+    line-height: 1.4;
+}
+
+.design-left p , .marketing-right p , .judge-left p , .team-heading p {
+    font-size: 1.2vw;
+    font-weight: 500;
+    line-height: 1.8;
+    color: #67696b;
+}
+
+.design-btn , .marketing-btn , .judge-btn , .team-btn {
+    background-color: #8BB7A2;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 0.8em 2.4em ;
+    cursor: pointer;
+}
+
+.design-right , .marketing-left , .judge-right {
+    width: 34em;
+    height: 34em;
+    background-image: url(./images/pexels-fauxels-3184405.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+.marketing-left {
+    background-image: url(./images/pexels-fauxels-3184603.jpg);
+}
+
+.judge-right {
+    background-image: url(./images/pexels-linkedin-sales-navigator-2182969.jpg);
+    background-position: top center;
+}
+
+.team-heading {
+    margin-top: 14em;
+}
+
+.team-heading h1 {
+    width: 26vw;
+}
+
+.team-heading p {
+    width: 36vw;
+}
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------Teams-Section----------------------------- */
+/* ------------------------------------------------------------------------ */
+
+.team-cards {
+    margin: 0 8em;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.team-img {
+    width: 24vw;
+    height: 30vw;
+    background-image: url(./images/pexels-mikhail-nilov-8937870.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+.team-img.img-2 {
+    background-image: url(./images/pexels-precious-judah-9154594.jpg);
+}
+
+.team-img.img-3 {
+    background-image: url(./images/pexels-christina-morillo-1181424.jpg);
+}
+
+.team-card p {
+    font-size: 1.02vw;
+    width: 23vw;
+    color: #67696b;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.team-btn {
+    display: block;
+    margin: 4em auto 5em auto;
+}
+
+/* ------------------------------------------------------------------------ */
+/* -------------------------------Footer----------------------------------- */
+/* ------------------------------------------------------------------------ */
+
+.footer {
+    background-color: #10181D;
+    padding: 4em 8em 6em 8em;
+}
+
+.footer-logos {
+    padding-bottom: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+    gap: 3em;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 1em;
+}
+
+.icon {
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 50%;
+    background-color: #282F34;
+}
+
+.footer-menu-lists {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.menu-list {
+    margin-top: 4em;
+    list-style-type: none;
+    line-height: 2.6;
+}
+
+.list-item:first-child {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #8B8E91;
+}
+
+/* ------------------------------------------------------------------------ */
+/* -------------------------Media-Query------------------------------------ */
+/* ------------------------------------------------------------------------ */
+
+@media screen and (max-width: 1292px) {
+    .enpowering-left {
+        width: 35vw;
+        height: 40vw;
+    }
+
+    .connection-img {
+        width: 82vw;
+        height: 45vw;
+    }
+
+    .design-right , .marketing-left , .judge-right {
+        width: 40vw;
+        height: 40vw;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .nav-list-items {
+        margin-right: 0;
+        width: 48vw;
+        flex-wrap: wrap;
+    }
+
+    .enpowering-section {
+        padding: 3em;
+        flex-wrap: wrap;
+    }
+
+    .design-section , .judge-section {
+        flex-wrap: wrap-reverse;
+    }
+
+    .marketing-section , .team-heading , .footer-logos {
+        flex-wrap: wrap;
+    }
+
+    .enpowering-left , .enpowering-right , .design-left , .marketing-right , .judge-left , .design-right , .marketing-left , .judge-right , .team-heading h1 , .team-heading p {
+        width: 100%;
+    }
+
+    .team-cards {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .team-img {
+        width: 16em;
+        height: 22em;
+    }
+}
+
+/* ------------------------------------------------------------------------ */
