@@ -1,8 +1,6 @@
 # HTML-CSS PROJECT-12
 
-This is Business Landing Page project made with technology HTML & CSS.
-I haven't made it responsive it only works in desktop/laptop screen.
-I will make it responsive ASAP.
+This is Business Landing Page project made with technology HTML & CSS. I have made it responsive it works in both desktop screen and mobile screen.
 
 
 ## 🛠 Technologies Used
@@ -10,7 +8,13 @@ I will make it responsive ASAP.
 
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-## Demo
+## Demo Video in Desktop Screen
+
+[Project-12.webm](https://user-images.githubusercontent.com/100980716/223315520-e1e37ecf-4610-4974-8ded-65a15bf8d938.webm)
+
+
+## Demo Video in Mobile Screen
+
 
 
 ## Honest Time to finish the project
