@@ -103,6 +103,7 @@ input[type="email"] {
     width: 19.7vw;
     font-size: 1.1vw;
     margin-left: 0.4em;
+    outline: none;
 }
 
 .fa.fa-envelope {
@@ -409,6 +410,111 @@ input[type="email"] {
     .team-img {
         width: 16em;
         height: 22em;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .enpowering-right h1 {
+        font-size: 8vw;
+    }
+    
+    .enpowering-right p {
+        font-size: 3vw;
+        width: 100%;
+    }
+
+    .email-box {
+        width: 60vw;
+    }
+    
+    input[type="email"] {
+        width: 35vw;
+        font-size: 2vw;
+        margin-left: 0em;
+    }
+    
+    .fa.fa-envelope {
+        font-size: 2vw;
+    }
+    
+    .email-btn {
+        font-size: 2vw;
+        padding: 0.6em 2em ;
+    }
+
+    .connection-heading h1 {
+        font-size: 5vw;
+        width: 14em;
+    }
+
+    .easy-heading h1 {
+        font-size: 7vw;
+        width: 80vw;
+    }
+    
+    .design-left h1 , .marketing-right h1 , .judge-left h1 , .team-heading h1 {
+        font-size: 6vw;
+    }
+    
+    .design-left p , .marketing-right p , .judge-left p , .team-heading p {
+        font-size: 3vw;
+    }  
+}
+
+@media screen and (max-width: 860px) {
+    nav {
+        flex-wrap: wrap;
+        gap: 3em;
+    }
+
+    .nav-list-items {
+        margin-right: 0;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+
+    .team-cards p {
+        font-size: 0.6em;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    nav {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .business-connection-section , .design-section , .marketing-section , .judge-section , .team-heading , .team-cards {
+        margin-inline: 2em;
+        margin-block: 4em;
+    }
+
+    .team-card {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .enpowering-section {
+        gap: 3em;
+    }
+
+    .footer {
+        padding: 2em;
+    }
+}
+
+@media screen and (max-width: 404px) {
+    .footer-icons {
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1em;
+    }   
+    
+    .footer-menu-lists {
+        justify-content: center;
+        align-items: center;
     }
 }
 
