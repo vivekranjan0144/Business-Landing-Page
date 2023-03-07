@@ -15,7 +15,7 @@ This is Business Landing Page project made with technology HTML & CSS. I have ma
 
 ## Demo Video in Mobile Screen
 
-Uploading Project-12.mp4…
+https://user-images.githubusercontent.com/100980716/223361314-c2a0c34c-5d36-4c7e-8594-87745579ac42.mp4
 
 ## Honest Time to finish the project
 
